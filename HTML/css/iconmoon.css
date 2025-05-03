@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/icomoon.eot?jaaf50');
+  src:  url('../fonts/icomoon.eot?jaaf50#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jaaf50') format('truetype'),
+    url('../fonts/icomoon.woff?jaaf50') format('woff'),
+    url('../fonts/icomoon.svg?jaaf50#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: middle;
+  display: inline-block;
+  font-style: normal;
+  margin-left: 0;
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tiktok:before {
+  content: "\e900";
+}
